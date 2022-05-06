@@ -48,7 +48,7 @@ public class ProjektBungalow extends JFrame implements ActionListener {
 		});
 	}
 
-	public ProjektBungalow() {
+	public ProjektBungalow() {//Da wird gezeigt wie wir die einzelnen Felder erstellt haben (Groeﬂe,Farbe etc...)
 
 		setBackground(new Color(0, 0, 0));
 		setForeground(new Color(255, 255, 255));
@@ -178,13 +178,13 @@ public class ProjektBungalow extends JFrame implements ActionListener {
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent e) {
-		if (e.getSource() == btnBuchen) {
+	public void actionPerformed(ActionEvent e) { 
+		if (e.getSource() == btnBuchen) {			//da wird es gebucht und gespeichert 
 			Buchungen[Integer.parseInt(txtNumberOne.getText())][0] = Integer.parseInt(txtNumberTwo.getText());
 			Buchungen[Integer.parseInt(txtNumberOne.getText())][1] = Integer.parseInt(txtNumberThree.getText());
 			Buchungen[Integer.parseInt(txtNumberOne.getText())][2] = Integer.parseInt(txtNumberFour.getText());
 		}
-		if (e.getSource() == btnAnzeigen) {
+		if (e.getSource() == btnAnzeigen) {			//Da wird es angezeigt(DieBuchung)
 			txtNumberSix.setText("Anfangsmonat: " + Buchungen[Integer.parseInt(txtNumberFive.getText())][0]);
 			txtNumberSeven.setText("Endemonat: " + Buchungen[Integer.parseInt(txtNumberFive.getText())][1]);
 			txtNumberEight.setText("Anzahl Personen: " + Buchungen[Integer.parseInt(txtNumberFive.getText())][2]);
@@ -193,8 +193,5 @@ public class ProjektBungalow extends JFrame implements ActionListener {
 			System.exit(0);
 		}
 	}
-<<<<<<< HEAD
-} //was geht ab 
-=======
-} //
+} 
 
