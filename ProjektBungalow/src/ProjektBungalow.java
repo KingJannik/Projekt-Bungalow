@@ -193,4 +193,4 @@ public class ProjektBungalow extends JFrame implements ActionListener {
 			System.exit(0);
 		}
 	}
-} //hallo ihr 
+} //hallo ihr netten Leute
