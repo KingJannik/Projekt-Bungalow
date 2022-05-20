@@ -48,7 +48,7 @@ public class ProjektBungalow extends JFrame implements ActionListener {
 		});
 	}
 
-	public ProjektBungalow() {//Da wird gezeigt wie wir die einzelnen Felder erstellt haben (Groeße,Farbe etc...)
+	public ProjektBungalow() {//Da wird gezeigt wie wir die einzelnen Felder erstellt haben (Groeï¿½e,Farbe etc...)
 
 		setBackground(new Color(0, 0, 0));
 		setForeground(new Color(255, 255, 255));
@@ -193,5 +193,5 @@ public class ProjektBungalow extends JFrame implements ActionListener {
 			System.exit(0);
 		}
 	}
-}//hallo 
+}//hallo //hallo
 
